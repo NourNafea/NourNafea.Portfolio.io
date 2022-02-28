@@ -1,159 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nour Nafea</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="/img/127-1274125_archive-computer-engineering-development-folder-web-developer-icon.png" type="image/x-icon">  
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/Nour-0.jpg" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                    <li class="nav__item"><a href="#footer" class="nav__link">Contact me</a></li>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="icon" type="image/png" sizes="421x421" href="assets/img/custom_resized_c6cfea8d-1091-4d18-9afa-7008c86f9502.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Dancing Script';"><strong>Nour Nafea</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-no-images.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project-page.html">Project Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hire-me.html">Hire me</a></li>
                 </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, This is <strong>Nour Nafea</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-            <img src="img/Nour3.JPG" alt="a picture of Nour smiling" class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Cloud Computing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>IoT</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Software Engineer based out of CAIRO</p>
-           
-           <div class="about-me__body">
-               <p>Nour-Eldien, An Engineering student who studies at faculty Of Engineering, Computer and Systems Engineering Department, Zagazig University</p>
-               <p>I completed two internships with two major software firms in <strong>Egypt</strong> and <strong>USA.</strong> The first one was at <a href="https://oakland.edu/" style="text-decoration: none;"><strong style="color: #877148;">Oakland Universiry</strong></a>. I learned about artificial intelligence
-                and Created a nice face-detiction application.
-            The second Internship was At <a href="http://www.dbsmena.com/" style="text-decoration: none;"><strong style="color: #004e89;">Digital Business Systems (DBS)</strong></a>. I got an internship as a web developer. There, I developed an e-commerce app for food and goods using microsoft technologies such as ASP.net MVC. </p>
-            <p>
-                I decided to get a nano-degree from Udacity to solidify my technical skills in Web Development, The front-end nanodegree was an excellent program. This course was a great validation of my skills, The program requires you complete several projects. In order to be better able to complete the projects, you are provided with coursework although it's not required to go through the course materials. What I liked most about the program is that you must submit your projects and in return you get feedback.
-
-                The feedback helped me improve on the project and that's very valuable. As far as concepts covered, we went through HTML, CSS, to even the concepts of using a JS framework.
-            </p>
-           </div>
-
-           
-           
-           <img src="img/Nour4.jpg" alt="Nour" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-            <div class="section group">
-                <div class="col span_1_of_2" style="display: inline-block;">
-                    <a href="https://nournafea.github.io/NourNafeaQuiz.io/" class="">
-                        <img src="img/screencapture-nournafea68-netlify-app-2021-07-14-14_00_59.jpg" alt="" class="portfolio__img" style="margin: auto; display: table;">
-                        
-                    </a>
-                    
-                </div>
-                <div class="col span_1_of_2">
-                    <a href="#" class="">
-                        <img src="img/Rectangle 3-1.png" alt="" class="portfolio__img" style="margin: auto;">
-                    </a>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="avatar" style="background-image:url(&quot;assets/img/avatars/A66CD756-D5B6-443B-A683-BE2947DD6465.jpeg&quot;);"></div>
+            <div class="container">
+                <div class="about-me">
+                    <p>
+                        Hello! I am <strong>Nour Nafea</strong>. I work as a Software Engineer<img src="assets/img/final_621cd3e02493ea009be2584b_282566.gif" width="50">. 
+                        Loves anything that scales, I am generally interested in building Large-Scale Applications.
+                    </p>
+                    <a class="btn btn-outline-primary" role="button" href="#">Hire me</a>
                 </div>
             </div>
-            
         </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer" id="footer">
-            
-            
-            <div class="section group">
-                <div class="col span_1_of_3">
-                    <a href="mailto:nour68.nafea@gmail.com" class="footer__link"><i class="fa fa-envelope"></i>  nour68.nafea@gmail.com</a>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="tel:+201008889982" class="footer__link"><i class="fa fa-phone icon-flipped" aria-hidden="true"></i>  +201008889982</a>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="https://goo.gl/maps/hPq4U1FxmdLEKAYF6" class="footer__link"><i class="fa fa-map-marker" aria-hidden="false"></i> Egypt - Cairo - Nasr City</a>
+        <section class="portfolio-block photography">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
                 </div>
             </div>
+        </section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Special Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Interface Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Photography and Print</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Website Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="screen">
+                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
+            <div class="social-icons"><a href="https://github.com/NourNafea"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/root_nour/"><i class="icon ion-social-google"></i></a><a href="https://twitter.com/root_nour"><i class="icon ion-social-twitter"></i></a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
 
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/nour-nafea-572234173/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/NourNafea">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.facebook.com/nour.eldien68/">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/NoureldinNafea">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-            <p class="me">
-                &copy; 
-                <strong>Nour Nafea</strong>
-                .All Rights Reserved.
-            </p>
-        </footer>
-        <script src="js/index.js"></script>
-    </body>
 </html>
